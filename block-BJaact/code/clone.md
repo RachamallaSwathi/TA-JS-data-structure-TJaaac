@@ -203,13 +203,9 @@ let clonedPerson =JSON.parse(JSON.stringify(person));
 ```js
 function cloneObject() {
   // your code
-  
    let newObj={...obj,sisters:[...obj.sisters],address:{...obj.address}};
   return newObj;
 }
-
-}
-
 // Run the test below to check your function
 
 let user = {
